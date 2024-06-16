@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  TestTaskSovkonbankApi:
+    image: 'test_task_sovkonbank_api:latest'
+    build:
+     context: ./TestTaskSovkombank
+    container_name: TestTaskSovkombankApi
+    ports:
+      - 8080:8080  
